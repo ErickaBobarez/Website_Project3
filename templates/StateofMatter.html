@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>State of Matter</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+</head>
+<body>
+<header>
+	<div class="container">
+		<span><img src="static/images/stateofmatter.png" width="50" height="50" /></span>
+		<h1 class="logo">State of Matter</h1>
+		<strong><nav>
+			<ul class="State of Matter">
+				<li><a href="{{ url_for('stateofmatter') }}">State of Matter</a></li>
+				<li><a href="{{ url_for('gas') }}">Gas</a></li>
+				<li><a href="{{ url_for('liquid') }}">Liquid</a></li>
+				<li><a href="{{ url_for('solid') }}">Solid</a></li>
+				<li><a href="{{ url_for('plasma') }}">Plasma</a></li>
+			</ul>
+		</nav></strong>
+	</div>
+</header>
+<p><b>Introduction to State of Matter</b></p><br>
+<p>Nearly every substance can exist as a solid, a liquid, or a gas. These are the three common states of matter. Whether a substance is a solid, a liquid, or a gas depends on its temperature and the pressure placed on it. At room temperature (about 22°C) and at the normal pressure exerted by the atmosphere, water exists as a liquid, which can flow from one container to another. But if its temperature is lowered to –0.01°C, liquid water freezes to solid ice. Going the opposite direction in temperature and at this same pressure, water changes to a gas when the temperature exceeds 100°C. Changes in state can also occur by changing the pressure while holding temperature constant. The relationship between temperature and pressure and the three states of matter is easier to see when displayed in a phase diagram. Because phase diagrams provide so much information, they are known for thousands of substances.</p><br>
+
+<p>Any change in phase is accompanied by the taking in or release of heat energy because, as change takes place, the attractive forces between molecules are being broken down or being formed. As solid water converts to liquid water, heat is absorbed as the forces between water molecules weaken, allowing the liquid to flow. The energy involved in phase changes is accurately known for many substances. The heat energy needed to warm or cool solids, liquids, and gases without changing phase is also accurately known.</p>
+
+<img src="static/images/stateofmatterexample.png" width="300" height="300">
+</body>
+</html>

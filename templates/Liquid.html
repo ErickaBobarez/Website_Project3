@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Liquid</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+</head>
+<body>
+<header>
+	<div class="container">
+		<span><img src="static/images/liquid.jpg" width="50" height="50" /></span>
+		<h1 class="logo">Liquid</h1>
+		<strong><nav>
+			<ul class="State of Matter">
+				<li><a href="{{ url_for('stateofmatter') }}">State of Matter</a></li>
+				<li><a href="{{ url_for('gas') }}">Gas</a></li>
+				<li><a href="{{ url_for('liquid') }}">Liquid</a></li>
+				<li><a href="{{ url_for('solid') }}">Solid</a></li>
+				<li><a href="{{ url_for('plasma') }}">Plasma</a></li>
+			</ul>
+		</nav></strong>
+	</div>
+</header>
+<p><b>Liquid</b></p><br>
+<p>A liquid is one of the states of matter. The particles in a liquid are free to flow, so while a liquid has a definite volume, it does not have a definite shape. Liquids consist of atoms or molecules that are connected by intermolecular bonds.</p><br>
+
+<p><b>Examples of Liquids</b></p><br>
+
+<p>At room temperature, examples of liquids include water, mercury, vegetable oil, ethanol. Mercury is the only metallic element that is a liquid at room temperature, although francium, cesium, gallium, and rubidium liquefy at slightly elevated temperatures. Aside from mercury, the only liquid element at room temperature is bromine. The most abundant liquid on Earth is water.</p>
+</body>
+</html>
